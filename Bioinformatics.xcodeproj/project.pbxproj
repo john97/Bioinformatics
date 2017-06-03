@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C503EBA11EE2AAF200DF1179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C503EBA01EE2AAF200DF1179 /* main.m */; };
+		C503EBA41EE2AAF200DF1179 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C503EBA31EE2AAF200DF1179 /* AppDelegate.m */; };
+		C503EBA71EE2AAF200DF1179 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C503EBA61EE2AAF200DF1179 /* ViewController.m */; };
+		C503EBAA1EE2AAF200DF1179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C503EBA81EE2AAF200DF1179 /* Main.storyboard */; };
+		C503EBAC1EE2AAF200DF1179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C503EBAB1EE2AAF200DF1179 /* Assets.xcassets */; };
+		C503EBAF1EE2AAF200DF1179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C503EBAD1EE2AAF200DF1179 /* LaunchScreen.storyboard */; };
+		C503EBBA1EE2AAF200DF1179 /* BioinformaticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C503EBB91EE2AAF200DF1179 /* BioinformaticsTests.m */; };
+		C503EBC51EE2AAF200DF1179 /* BioinformaticsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C503EBC41EE2AAF200DF1179 /* BioinformaticsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C503EBB61EE2AAF200DF1179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C503EB941EE2AAF100DF1179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C503EB9B1EE2AAF100DF1179;
+			remoteInfo = Bioinformatics;
+		};
+		C503EBC11EE2AAF200DF1179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C503EB941EE2AAF100DF1179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C503EB9B1EE2AAF100DF1179;
+			remoteInfo = Bioinformatics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C503EB9C1EE2AAF200DF1179 /* Bioinformatics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bioinformatics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C503EBA01EE2AAF200DF1179 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C503EBA21EE2AAF200DF1179 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C503EBA31EE2AAF200DF1179 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C503EBA51EE2AAF200DF1179 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C503EBA61EE2AAF200DF1179 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C503EBA91EE2AAF200DF1179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C503EBAB1EE2AAF200DF1179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C503EBAE1EE2AAF200DF1179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C503EBB01EE2AAF200DF1179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C503EBB51EE2AAF200DF1179 /* BioinformaticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioinformaticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C503EBB91EE2AAF200DF1179 /* BioinformaticsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BioinformaticsTests.m; sourceTree = "<group>"; };
+		C503EBBB1EE2AAF200DF1179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C503EBC01EE2AAF200DF1179 /* BioinformaticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioinformaticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C503EBC41EE2AAF200DF1179 /* BioinformaticsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BioinformaticsUITests.m; sourceTree = "<group>"; };
+		C503EBC61EE2AAF200DF1179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C503EB991EE2AAF100DF1179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C503EBB21EE2AAF200DF1179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C503EBBD1EE2AAF200DF1179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C503EB931EE2AAF100DF1179 = {
+			isa = PBXGroup;
+			children = (
+				C503EB9E1EE2AAF200DF1179 /* Bioinformatics */,
+				C503EBB81EE2AAF200DF1179 /* BioinformaticsTests */,
+				C503EBC31EE2AAF200DF1179 /* BioinformaticsUITests */,
+				C503EB9D1EE2AAF200DF1179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C503EB9D1EE2AAF200DF1179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C503EB9C1EE2AAF200DF1179 /* Bioinformatics.app */,
+				C503EBB51EE2AAF200DF1179 /* BioinformaticsTests.xctest */,
+				C503EBC01EE2AAF200DF1179 /* BioinformaticsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C503EB9E1EE2AAF200DF1179 /* Bioinformatics */ = {
+			isa = PBXGroup;
+			children = (
+				C503EBA21EE2AAF200DF1179 /* AppDelegate.h */,
+				C503EBA31EE2AAF200DF1179 /* AppDelegate.m */,
+				C503EBA51EE2AAF200DF1179 /* ViewController.h */,
+				C503EBA61EE2AAF200DF1179 /* ViewController.m */,
+				C503EBA81EE2AAF200DF1179 /* Main.storyboard */,
+				C503EBAB1EE2AAF200DF1179 /* Assets.xcassets */,
+				C503EBAD1EE2AAF200DF1179 /* LaunchScreen.storyboard */,
+				C503EBB01EE2AAF200DF1179 /* Info.plist */,
+				C503EB9F1EE2AAF200DF1179 /* Supporting Files */,
+			);
+			path = Bioinformatics;
+			sourceTree = "<group>";
+		};
+		C503EB9F1EE2AAF200DF1179 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C503EBA01EE2AAF200DF1179 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C503EBB81EE2AAF200DF1179 /* BioinformaticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C503EBB91EE2AAF200DF1179 /* BioinformaticsTests.m */,
+				C503EBBB1EE2AAF200DF1179 /* Info.plist */,
+			);
+			path = BioinformaticsTests;
+			sourceTree = "<group>";
+		};
+		C503EBC31EE2AAF200DF1179 /* BioinformaticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C503EBC41EE2AAF200DF1179 /* BioinformaticsUITests.m */,
+				C503EBC61EE2AAF200DF1179 /* Info.plist */,
+			);
+			path = BioinformaticsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C503EB9B1EE2AAF100DF1179 /* Bioinformatics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C503EBC91EE2AAF200DF1179 /* Build configuration list for PBXNativeTarget "Bioinformatics" */;
+			buildPhases = (
+				C503EB981EE2AAF100DF1179 /* Sources */,
+				C503EB991EE2AAF100DF1179 /* Frameworks */,
+				C503EB9A1EE2AAF100DF1179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bioinformatics;
+			productName = Bioinformatics;
+			productReference = C503EB9C1EE2AAF200DF1179 /* Bioinformatics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C503EBB41EE2AAF200DF1179 /* BioinformaticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C503EBCC1EE2AAF200DF1179 /* Build configuration list for PBXNativeTarget "BioinformaticsTests" */;
+			buildPhases = (
+				C503EBB11EE2AAF200DF1179 /* Sources */,
+				C503EBB21EE2AAF200DF1179 /* Frameworks */,
+				C503EBB31EE2AAF200DF1179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C503EBB71EE2AAF200DF1179 /* PBXTargetDependency */,
+			);
+			name = BioinformaticsTests;
+			productName = BioinformaticsTests;
+			productReference = C503EBB51EE2AAF200DF1179 /* BioinformaticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C503EBBF1EE2AAF200DF1179 /* BioinformaticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C503EBCF1EE2AAF200DF1179 /* Build configuration list for PBXNativeTarget "BioinformaticsUITests" */;
+			buildPhases = (
+				C503EBBC1EE2AAF200DF1179 /* Sources */,
+				C503EBBD1EE2AAF200DF1179 /* Frameworks */,
+				C503EBBE1EE2AAF200DF1179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C503EBC21EE2AAF200DF1179 /* PBXTargetDependency */,
+			);
+			name = BioinformaticsUITests;
+			productName = BioinformaticsUITests;
+			productReference = C503EBC01EE2AAF200DF1179 /* BioinformaticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C503EB941EE2AAF100DF1179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Keshav Goyal";
+				TargetAttributes = {
+					C503EB9B1EE2AAF100DF1179 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C503EBB41EE2AAF200DF1179 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C503EB9B1EE2AAF100DF1179;
+					};
+					C503EBBF1EE2AAF200DF1179 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C503EB9B1EE2AAF100DF1179;
+					};
+				};
+			};
+			buildConfigurationList = C503EB971EE2AAF100DF1179 /* Build configuration list for PBXProject "Bioinformatics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C503EB931EE2AAF100DF1179;
+			productRefGroup = C503EB9D1EE2AAF200DF1179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C503EB9B1EE2AAF100DF1179 /* Bioinformatics */,
+				C503EBB41EE2AAF200DF1179 /* BioinformaticsTests */,
+				C503EBBF1EE2AAF200DF1179 /* BioinformaticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C503EB9A1EE2AAF100DF1179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C503EBAF1EE2AAF200DF1179 /* LaunchScreen.storyboard in Resources */,
+				C503EBAC1EE2AAF200DF1179 /* Assets.xcassets in Resources */,
+				C503EBAA1EE2AAF200DF1179 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C503EBB31EE2AAF200DF1179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C503EBBE1EE2AAF200DF1179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C503EB981EE2AAF100DF1179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C503EBA71EE2AAF200DF1179 /* ViewController.m in Sources */,
+				C503EBA41EE2AAF200DF1179 /* AppDelegate.m in Sources */,
+				C503EBA11EE2AAF200DF1179 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C503EBB11EE2AAF200DF1179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C503EBBA1EE2AAF200DF1179 /* BioinformaticsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C503EBBC1EE2AAF200DF1179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C503EBC51EE2AAF200DF1179 /* BioinformaticsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C503EBB71EE2AAF200DF1179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C503EB9B1EE2AAF100DF1179 /* Bioinformatics */;
+			targetProxy = C503EBB61EE2AAF200DF1179 /* PBXContainerItemProxy */;
+		};
+		C503EBC21EE2AAF200DF1179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C503EB9B1EE2AAF100DF1179 /* Bioinformatics */;
+			targetProxy = C503EBC11EE2AAF200DF1179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C503EBA81EE2AAF200DF1179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C503EBA91EE2AAF200DF1179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C503EBAD1EE2AAF200DF1179 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C503EBAE1EE2AAF200DF1179 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C503EBC71EE2AAF200DF1179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C503EBC81EE2AAF200DF1179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C503EBCA1EE2AAF200DF1179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bioinformatics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.Bioinformatics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C503EBCB1EE2AAF200DF1179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bioinformatics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.Bioinformatics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C503EBCD1EE2AAF200DF1179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BioinformaticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.BioinformaticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bioinformatics.app/Bioinformatics";
+			};
+			name = Debug;
+		};
+		C503EBCE1EE2AAF200DF1179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BioinformaticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.BioinformaticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bioinformatics.app/Bioinformatics";
+			};
+			name = Release;
+		};
+		C503EBD01EE2AAF200DF1179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BioinformaticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.BioinformaticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bioinformatics;
+			};
+			name = Debug;
+		};
+		C503EBD11EE2AAF200DF1179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BioinformaticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.BioinformaticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bioinformatics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C503EB971EE2AAF100DF1179 /* Build configuration list for PBXProject "Bioinformatics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C503EBC71EE2AAF200DF1179 /* Debug */,
+				C503EBC81EE2AAF200DF1179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C503EBC91EE2AAF200DF1179 /* Build configuration list for PBXNativeTarget "Bioinformatics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C503EBCA1EE2AAF200DF1179 /* Debug */,
+				C503EBCB1EE2AAF200DF1179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C503EBCC1EE2AAF200DF1179 /* Build configuration list for PBXNativeTarget "BioinformaticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C503EBCD1EE2AAF200DF1179 /* Debug */,
+				C503EBCE1EE2AAF200DF1179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C503EBCF1EE2AAF200DF1179 /* Build configuration list for PBXNativeTarget "BioinformaticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C503EBD01EE2AAF200DF1179 /* Debug */,
+				C503EBD11EE2AAF200DF1179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C503EB941EE2AAF100DF1179 /* Project object */;
+}
